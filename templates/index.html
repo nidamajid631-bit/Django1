@@ -1,0 +1,137 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stylish Mini Blog</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fdfdfd;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .book-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.8rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .book-title {
+            font-size: 1.2em; /* Italian-size text */
+            font-weight: bold;
+            margin-bottom: 0.4rem;
+            color: #333;
+        }
+
+        .book-author {
+            color: green;
+            font-style: italic;
+            margin-bottom: 0.4rem;
+        }
+
+        .book-published {
+            font-weight: bold;
+            color: #4CAF50;
+            margin-bottom: 0.6rem;
+        }
+
+        .book-desc {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .book-link {
+            display: inline-block;
+            margin-top: 0.6rem;
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        .book-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            color: #777;
+            border-top: 1px solid #ddd;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>My Stylish Mini Blog</header>
+
+    <div class="container">
+        <div class="book-card">
+            <div class="book-title">My Feudal Lord</div>
+            <div class="book-author">Tehmina Durrani</div>
+            <div class="book-published">1991</div>
+            <div class="book-desc">A powerful memoir revealing the struggles and courage of a woman in a feudal society.</div>
+            <a class="book-link" href="https://www.penguin.co.uk/books/329234/my-feudal-lord-by-durranitehmina/9780552142397" target="_blank">Source</a>
+        </div>
+
+        <div class="book-card">
+            <div class="book-title">Ego Is the Enemy</div>
+            <div class="book-author">Ryan Holiday</div>
+            <div class="book-published">2016</div>
+            <div class="book-desc">A reminder that ego blocks success and humility opens the door to growth and wisdom.</div>
+            <a class="book-link" href="https://www.penguinrandomhouse.com/books/318016/ego-is-the-enemy-by-ryan-holiday/" target="_blank">Source</a>
+        </div>
+
+        <div class="book-card">
+            <div class="book-title">Who Moved My Cheese?</div>
+            <div class="book-author">Spencer Johnson</div>
+            <div class="book-published">1998</div>
+            <div class="book-desc">A simple parable about change in work and life.</div>
+        </div>
+
+        <div class="book-card">
+            <div class="book-title">Why Nations Fail</div>
+            <div class="book-author">Daron Acemoglu & James Robinson</div>
+            <div class="book-published">2012</div>
+            <div class="book-desc">Analyzes why some countries are rich and others are poor.</div>
+            <a class="book-link" href="https://openlibrary.org/books/OL25370229M/Why_Nations_Fail" target="_blank">Source</a>
+        </div>
+
+        <div class="book-card">
+            <div class="book-title">Publication Manual of the APA</div>
+            <div class="book-author">American Psychological Association</div>
+            <div class="book-published">7th edition, 2019</div>
+            <div class="book-desc">The essential guide for formatting and citing in APA style.</div>
+        </div>
+    </div>
+
+    <footer>&copy; 2025 My Mini Blog</footer>
+</body>
+</html>
